@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Mohd Waqar Azim is an AI & ML Engineer who builds production-grade ML systems, GenAI pipelines, and intelligent software solutions.">
+    <meta name="keywords" content="AI Engineer, Machine Learning, Deep Learning, Python, FastAPI, Portfolio">
+    <meta name="author" content="Mohd Waqar Azim">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Mohd Waqar Azim">
+    <meta property="og:description"
+        content="AI & ML Engineer building production-grade ML systems and GenAI solutions.">
+    <meta property="og:type" content="website">
+
+    <title>Mohd Waqar Azim</title>
+
+    <!-- Google Fonts - Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Mouse Spotlight Effect -->
+    <div class="spotlight" id="spotlight"></div>
+
+    <div class="container">
+        <!-- Left Sidebar - Fixed -->
+        <header class="sidebar">
+            <div class="sidebar-content">
+                <div class="header-main">
+                    <h1 class="name">
+                        <a href="/">Mohd Waqar Azim</a>
+                    </h1>
+                    <h2 class="role">AI & ML Engineer</h2>
+                    <p class="tagline">I build production-grade ML systems and intelligent GenAI solutions.</p>
+                </div>
+
+                <!-- Navigation -->
+                <nav class="nav" aria-label="In-page jump links">
+                    <ul class="nav-list">
+                        <li>
+                            <a href="#about" class="nav-link active">
+                                <span class="nav-indicator"></span>
+                                <span class="nav-text">About</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#experience" class="nav-link">
+                                <span class="nav-indicator"></span>
+                                <span class="nav-text">Experience</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#projects" class="nav-link">
+                                <span class="nav-indicator"></span>
+                                <span class="nav-text">Projects</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <!-- Social Links -->
+                <ul class="social-links" aria-label="Social media">
+                    <li>
+                        <a href="https://github.com/Waqar53" target="_blank" rel="noopener noreferrer"
+                            aria-label="GitHub" class="social-link">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                class="social-icon">
+                                <path
+                                    d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/mohd-waqar-azim-07b944281/" target="_blank"
+                            rel="noopener noreferrer" aria-label="LinkedIn" class="social-link">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                class="social-icon">
+                                <path
+                                    d="M20.5 2h-17A1.5 1.5 0 002 3.5v17A1.5 1.5 0 003.5 22h17a1.5 1.5 0 001.5-1.5v-17A1.5 1.5 0 0020.5 2zM8 19H5v-9h3zM6.5 8.25A1.75 1.75 0 118.3 6.5a1.78 1.78 0 01-1.8 1.75zM19 19h-3v-4.74c0-1.42-.6-1.93-1.38-1.93A1.74 1.74 0 0013 14.19a.66.66 0 000 .14V19h-3v-9h2.9v1.3a3.11 3.11 0 012.7-1.4c1.55 0 3.36.86 3.36 3.66z" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="mailto:waqarworks11@gmail.com" aria-label="Email" class="social-link">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                class="social-icon">
+                                <path
+                                    d="M1.5 8.67v8.58a3 3 0 003 3h15a3 3 0 003-3V8.67l-8.928 5.493a3 3 0 01-3.144 0L1.5 8.67z" />
+                                <path
+                                    d="M22.5 6.908V6.75a3 3 0 00-3-3h-15a3 3 0 00-3 3v.158l9.714 5.978a1.5 1.5 0 001.572 0L22.5 6.908z" />
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+
+        <!-- Main Content - Scrollable -->
+        <main class="main-content" id="content">
+            <!-- About Section -->
+            <section id="about" class="section" aria-label="About me">
+                <div class="section-header-sticky">
+                    <h2 class="section-header">About</h2>
+                </div>
+                <div class="section-content">
+                    <p>
+                        I'm an AI-focused Computer Science undergraduate with hands-on experience building
+                        <span class="highlight">production-grade ML and GenAI systems</span>. My passion lies at the
+                        intersection
+                        of machine learning and software engineering—creating intelligent solutions that are not just
+                        technically impressive but genuinely useful.
+                    </p>
+                    <p>
+                        Currently, I'm pursuing my <span class="highlight">B.Tech in Computer Science and Engineering
+                            (AI & Robotics)</span>
+                        at <a href="https://chennai.vit.ac.in/" target="_blank" rel="noopener noreferrer"
+                            class="inline-link">Vellore Institute of Technology, Chennai</a>.
+                        My work spans healthcare AI, computer vision, and RAG pipelines—from designing data pipelines
+                        and
+                        training models to building FastAPI backends and containerized deployments.
+                    </p>
+                    <p>
+                        I've had the opportunity to work on real-world AI systems that process medical reports, analyze
+                        customer feedback at scale, and provide intelligence across codebases. My focus is always on
+                        building <span class="highlight">end-to-end systems</span> that can handle real-world complexity
+                        and scale to production.
+                    </p>
+                    <p>
+                        When I'm not coding, you'll find me exploring the latest developments in AI research,
+                        contributing to open-source projects, or working on my next ambitious side project.
+                    </p>
+                </div>
+            </section>
+
+            <!-- Experience Section -->
+            <section id="experience" class="section" aria-label="Work experience">
+                <div class="section-header-sticky">
+                    <h2 class="section-header">Experience</h2>
+                </div>
+                <div class="section-content">
+                    <ol class="experience-list">
+                        <li class="experience-item">
+                            <a href="#" class="experience-card group">
+                                <div class="experience-date" aria-label="June 2025 to July 2025">
+                                    Jun — Jul 2025
+                                </div>
+                                <div class="experience-details">
+                                    <h3 class="experience-title">
+                                        Machine Learning Intern ·
+                                        <span class="company">Sugarbiz Consultant & Services Ltd</span>
+                                        <span class="location">London</span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                                            class="external-icon" aria-hidden="true">
+                                            <path fill-rule="evenodd"
+                                                d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z"
+                                                clip-rule="evenodd" />
+                                        </svg>
+                                    </h3>
+                                    <p class="experience-description">
+                                        Built and trained CNN models to classify 50+ bird species from raw images,
+                                        achieving 90%+ validation accuracy. Designed preprocessing and augmentation
+                                        pipelines that improved generalization and reduced overfitting on noisy field
+                                        data.
+                                        Delivered an end-to-end ML pipeline (data prep → training → evaluation →
+                                        inference)
+                                        used in internal demos.
+                                    </p>
+                                    <ul class="tech-tags" aria-label="Technologies used">
+                                        <li class="tech-tag">Python</li>
+                                        <li class="tech-tag">TensorFlow</li>
+                                        <li class="tech-tag">Deep Learning</li>
+                                        <li class="tech-tag">CNN</li>
+                                        <li class="tech-tag">Computer Vision</li>
+                                    </ul>
+                                </div>
+                            </a>
+                        </li>
+                    </ol>
+
+                    <!-- Education Note -->
+                    <div class="education-note">
+                        <p class="education-text">
+                            <span class="education-label">Education:</span> B.Tech in Computer Science and Engineering
+                            (AI & Robotics)
+                            at VIT Chennai (2023 – 2027) • CGPA: 8
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Projects Section -->
+            <section id="projects" class="section" aria-label="Selected projects">
+                <div class="section-header-sticky">
+                    <h2 class="section-header">Projects</h2>
+                </div>
+                <div class="section-content">
+                    <ol class="project-list">
+                        <!-- MedExplain -->
+                        <li class="project-item">
+                            <a href="https://github.com/Waqar53/MedExplain-v1" target="_blank" rel="noopener noreferrer"
+                                class="project-card group">
+                                <div class="project-image">
+                                    <div class="project-placeholder">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                            stroke-width="1.5" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="M9.75 3.104v5.714a2.25 2.25 0 01-.659 1.591L5 14.5M9.75 3.104c-.251.023-.501.05-.75.082m.75-.082a24.301 24.301 0 014.5 0m0 0v5.714c0 .597.237 1.17.659 1.591L19.8 15.3M14.25 3.104c.251.023.501.05.75.082M19.8 15.3l-1.57.393A9.065 9.065 0 0112 15a9.065 9.065 0 00-6.23.693L5 14.5m14.8.8l1.402 1.402c1.232 1.232.65 3.318-1.067 3.611A48.309 48.309 0 0112 21c-2.773 0-5.491-.235-8.135-.687-1.718-.293-2.3-2.379-1.067-3.61L5 14.5" />
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="project-details">
+                                    <h3 class="project-title">
+                                        MedExplain — Healthcare Report Analysis
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                                            class="external-icon" aria-hidden="true">
+                                            <path fill-rule="evenodd"
+                                                d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z"
+                                                clip-rule="evenodd" />
+                                        </svg>
+                                    </h3>
+                                    <p class="project-description">
+                                        Built a healthcare AI platform that parses multi-page medical reports in ~1-2s,
+                                        extracting 40+ lab parameters. Designed deterministic explanation pipelines with
+                                        safety filters, disclaimers, and confidence scoring. Engineered a FastAPI ML
+                                        backend
+                                        handling 100+ concurrent requests with validation, rate limiting, and session
+                                        tracking.
+                                    </p>
+                                    <ul class="tech-tags" aria-label="Technologies used">
+                                        <li class="tech-tag">Python</li>
+                                        <li class="tech-tag">FastAPI</li>
+                                        <li class="tech-tag">PyTorch</li>
+                                        <li class="tech-tag">OpenCV</li>
+                                        <li class="tech-tag">Docker</li>
+                                    </ul>
+                                </div>
+                            </a>
+                        </li>
+
+                        <!-- Customer Intelligence AI -->
+                        <li class="project-item">
+                            <a href="https://github.com/Waqar53/customer_intelligence_ai" target="_blank"
+                                rel="noopener noreferrer" class="project-card group">
+                                <div class="project-image">
+                                    <div class="project-placeholder">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                            stroke-width="1.5" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="M3.75 3v11.25A2.25 2.25 0 006 16.5h2.25M3.75 3h-1.5m1.5 0h16.5m0 0h1.5m-1.5 0v11.25A2.25 2.25 0 0118 16.5h-2.25m-7.5 0h7.5m-7.5 0l-1 3m8.5-3l1 3m0 0l.5 1.5m-.5-1.5h-9.5m0 0l-.5 1.5m.75-9l3-3 2.148 2.148A12.061 12.061 0 0116.5 7.605" />
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="project-details">
+                                    <h3 class="project-title">
+                                        Customer Intelligence AI (GenAI System)
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                                            class="external-icon" aria-hidden="true">
+                                            <path fill-rule="evenodd"
+                                                d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z"
+                                                clip-rule="evenodd" />
+                                        </svg>
+                                    </h3>
+                                    <p class="project-description">
+                                        Built a production-style RAG system to analyze large-scale customer feedback
+                                        and generate business insights. Implemented TF-IDF + clustering and FAISS
+                                        semantic search for intelligent information retrieval. Deployed via FastAPI
+                                        and Docker for production-ready performance.
+                                    </p>
+                                    <ul class="tech-tags" aria-label="Technologies used">
+                                        <li class="tech-tag">Python</li>
+                                        <li class="tech-tag">Scikit-learn</li>
+                                        <li class="tech-tag">FAISS</li>
+                                        <li class="tech-tag">LLMs</li>
+                                        <li class="tech-tag">FastAPI</li>
+                                        <li class="tech-tag">Docker</li>
+                                    </ul>
+                                </div>
+                            </a>
+                        </li>
+
+                        <!-- SentinelOS -->
+                        <li class="project-item">
+                            <a href="https://github.com/Waqar53/SentinelOS" target="_blank" rel="noopener noreferrer"
+                                class="project-card group">
+                                <div class="project-image">
+                                    <div class="project-placeholder">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                            stroke-width="1.5" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="M17.25 6.75L22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3l-4.5 16.5" />
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="project-details">
+                                    <h3 class="project-title">
+                                        SentinelOS — Code Intelligence Platform
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                                            class="external-icon" aria-hidden="true">
+                                            <path fill-rule="evenodd"
+                                                d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z"
+                                                clip-rule="evenodd" />
+                                        </svg>
+                                    </h3>
+                                    <p class="project-description">
+                                        Built a production-grade AI platform for engineering and business intelligence
+                                        across codebases and customer data. Implemented bug-risk and churn prediction
+                                        using code metrics, TF-IDF, and ML models. Designed a knowledge graph and
+                                        RAG-based LLM engine for CTO-style reports. Validated on real Google & Microsoft
+                                        repositories.
+                                    </p>
+                                    <ul class="tech-tags" aria-label="Technologies used">
+                                        <li class="tech-tag">Python</li>
+                                        <li class="tech-tag">FastAPI</li>
+                                        <li class="tech-tag">Scikit-learn</li>
+                                        <li class="tech-tag">OpenAI</li>
+                                        <li class="tech-tag">NetworkX</li>
+                                        <li class="tech-tag">Docker</li>
+                                    </ul>
+                                </div>
+                            </a>
+                        </li>
+                    </ol>
+                </div>
+            </section>
+
+            <!-- Footer -->
+            <footer class="footer">
+                <p>
+                    Built with LOVE By Waqar and vanilla HTML, CSS, and JavaScript.
+                    Set in the <a href="https://rsms.me/inter/" target="_blank" rel="noopener noreferrer"
+                        class="inline-link">Inter</a> typeface.
+                </p>
+            </footer>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
